@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>显示时间</title>
+        <!--这里开始是JS的功能-->
+        <script>
+            function showtime(){
+                document.getElementById("time").innerHTML=Date()
+            }
+        </script>
+        <!--这里功能结束-->
+
+    </head>
+    <body>
+        <h1>点击按钮显示时间</h1>
+        <p id="time">这里的文本会被替换为时间</p>
+
+        <!--定义要被替换的段落-->
+        <button type="button" onclick="showtime()">显示时间</button>
+
+    </body>
+</html>
