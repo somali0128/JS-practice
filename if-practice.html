@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>IF-practice</title>
+    </head>
+    <script type="text/javascript">
+    var d = new Date();
+    var time = d.getHours();
+    document.write(time)
+    if (time<10)
+    {
+        document.write("早上好")
+    }
+    else if (time>=10 && time <=16)
+    {
+        document.write("中午好")
+    }
+    else if (time>16 && time <= 20)
+    {
+        document.write("下午好")
+    }
+    else if (time>20 && time <= 24)
+    {
+        document.write("晚上好")
+    }
+    else
+    {
+        document.write("还没睡呢？")
+    }
+    </script>
+    <p></p>下面的文本会被替换为根据时间的问候语</p>
+    <p id="demo" style="color: red;">被替换部分</p>
+</html>
